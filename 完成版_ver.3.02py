@@ -44,10 +44,7 @@ if startthecrypto in ["angouka", "anngouka"]:
         print("変換に失敗しました。")
     else:
         shuturyoku = compare_bits(output)
-        for _ in range(3):
-            time.sleep(0.5)
-            print("・")
-        print("変換結果:", shuturyoku)
+        print("変換結果：", shuturyoku)
 
 # 復元モード
 if startthecrypto in ["hukugen", "fukugen"]:
