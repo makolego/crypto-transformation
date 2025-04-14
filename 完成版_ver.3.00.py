@@ -85,4 +85,4 @@ if startthecrypto in ["hukugen", "fukugen"]:
 
     restored_bits = "".join([crypto_keys.get(code, "？") for code in xor_decrypt_slise])
 
-    print(restored_bits)
+    print('復元結果：' + restored_bits)
